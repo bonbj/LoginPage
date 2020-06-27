@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <span>Login</span>
-        <input type="email" name="email" placeholder="email@gmail.com">
-
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password" placeholder="********">
-
-        <input type="checkbox" id="lembrar" name="lembrar">
-        <label for="lembrar">Lembre de mim</label>
-
-        <a href="#">Cadastre-se</a>
-        <a href="#">Esqueci minha senha</a>
-
-        <input type="submit" value="Login">
-    </main>
+        <form action="#" class="container">
+            <div class="input-div">
+                <span>Login</span>
+                <input class="input-email" type="email" name="email" placeholder="email@gmail.com">
+            </div>
+    
+            <div class="input-div">
+                <label for="password" >Senha</label>
+                <input type="password" class="input-password" name="password" id="password" placeholder="********">
+            </div>
+    
+            <div>
+                <input type="checkbox" id="lembrar" name="lembrar">
+                <label for="lembrar">Lembre de mim</label>
+            </div>
+    
+            <div>
+                <a href="#">Cadastre-se</a>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+    
+            <input type="submit" value="Login">
+        </form>
 </body>
 </html>

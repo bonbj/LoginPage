@@ -12,7 +12,33 @@
 
 body {
     width: 100vw;
-    height: 1;
+    height: 100vh;
     background-image: url(./landscape.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 70vh;
+    width: 50vw;
+    background-color: aliceblue;
+    border-radius: 0.5pc;
+    box-shadow: 1rem 1rem 0 rgba( 0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.input-div {
+    padding-left: 1rem;
+}
+
+.input-password {
+    margin-left: 1rem;
+}
+
+.input-email {
+    margin-left: 1.5rem;
 }
