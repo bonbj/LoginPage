@@ -32,13 +32,74 @@ body {
 }
 
 .input-div {
-    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.input-password {
-    margin-left: 1rem;
+.input-text {
+    padding: 1rem;
+    border: 3px solid rgb(66, 66, 182);
+    border-radius: 5px;
 }
 
-.input-email {
-    margin-left: 1.5rem;
+.input-text:hover {
+    border: 3px solid rgb(19, 19, 77);
+    background-color: rgb(197, 197, 235);
+}
+
+.input-text:focus {
+    border: 3px solid rgb(19, 19, 77);
+    background-color: rgb(197, 197, 235);
+}
+
+
+.span-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.links {
+    text-align: center;
+}
+
+.links > * {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.links > *:hover {
+    color :rgb(19, 19, 77);
+    text-decoration: underline;
+}
+
+.remenbeme-label:hover {
+    color:rgb(19, 19, 77);
+    cursor: pointer;
+}
+
+.remenbeme-check:hover {
+    cursor: pointer;
+}
+
+.remenbeme {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-login {
+    padding: 1.2rem;
+    margin: 0.5rem 0;
+    border: 3px solid rgb(66, 66, 182);
+    font-size: 2rem;
+    background-color: rgb(50, 50, 211);
+    color: white;
+    border-radius: 5px;
+}
+
+.button-login:hover {
+    background-color: rgb(34, 34, 139);
+    cursor: pointer;
 }

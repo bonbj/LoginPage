@@ -9,26 +9,26 @@
 <body>
         <form action="#" class="container">
             <div class="input-div">
-                <span>Login</span>
-                <input class="input-email" type="email" name="email" placeholder="email@gmail.com">
+                <span class="span-name">Login</span>
+                <input class="input-text" type="email" name="email" placeholder="email@gmail.com">
             </div>
     
             <div class="input-div">
-                <label for="password" >Senha</label>
-                <input type="password" class="input-password" name="password" id="password" placeholder="********">
+                <span class="span-name">Senha</span>
+                <input type="password" class="input-text" name="password" id="password" placeholder="********">
             </div>
     
-            <div>
-                <input type="checkbox" id="lembrar" name="lembrar">
-                <label for="lembrar">Lembre de mim</label>
+            <div class="remenbeme">
+                <input type="checkbox" class="remenbeme-check" id="lembrar" name="lembrar">
+                <label for="lembrar" class="remenbeme-label">Lembre de mim</label>
             </div>
     
-            <div>
+            <input type="submit" value="Login" class="button-login">
+
+            <div class="links">
                 <a href="#">Cadastre-se</a>
                 <a href="#">Esqueci minha senha</a>
             </div>
-    
-            <input type="submit" value="Login">
         </form>
 </body>
 </html>
